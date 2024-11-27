@@ -1,0 +1,21 @@
+{
+    "name": "vscode-timer-plugin",
+    "displayName": "VS Code Timer",
+    "description": "Плагин, показывающий, сколько времени работает VS Code.",
+    "version": "1.0.0",
+    "publisher": "your-name",
+    "engines": {
+        "vscode": "^1.78.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {},
+    "devDependencies": {
+        "@types/node": "^22.9.3"
+    }
+}
