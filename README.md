@@ -10,19 +10,20 @@
 - Cleans up resources when the plugin is deactivated.
 
 ## Installation
-1. Clone the repository:
+### Clone the repository:
    ```bash
    git clone https://github.com/your-username/vscode-timer-plugin.git
    cd vscode-timer-plugin
    ```
-2. Install dependencies:
+### Install dependencies:
    ```bash
    npm install
    npx tsc
-4. Open the project in VS Code and launch the plugin:
-    Open the Run and Debug panel (or press Ctrl+Shift+D).
-    Select the Run Extension configuration.
-    Press F5 to start debugging.
+   ```
+### Open the project in VS Code and launch the plugin:
+Open the Run and Debug panel (or press Ctrl+Shift+D).
+Select the Run Extension configuration.
+Press F5 to start debugging.
 ## Development
 This plugin is developed using the Visual Studio Code API. The key files in the project are:
 
